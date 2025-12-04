@@ -24,7 +24,6 @@ public class ChessPlayer {
         this.birthYear = birthYear;
     }
 
-    // Геттеры
     public String getRatingDate() { return ratingDate; }
     public int getRating() { return rating; }
     public String getLastName() { return lastName; }
@@ -38,10 +37,6 @@ public class ChessPlayer {
 
     public boolean isFemale() {
         return "wg".equals(title);
-    }
-
-    public int getAge(int currentYear) {
-        return currentYear - birthYear;
     }
 
     @Override
